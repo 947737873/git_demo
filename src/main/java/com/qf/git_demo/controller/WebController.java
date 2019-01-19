@@ -14,6 +14,7 @@ public class WebController {
     @RequestMapping("gotoInit")
     public String gotoInit(){
         System.out.println("第一次提交");
+        System.out.println("第二次提交");
         return null;
     }
 }
